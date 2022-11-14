@@ -35,6 +35,7 @@ Output:
   Hello John
 ```
 
+
 ### Q. String split methods 
 ```py 
   name = "riyan"
@@ -47,6 +48,21 @@ Output:
 ```
   ['riyan', 'is', 'awesome,', 'he', 'is', '2', 'old']
   ['riyan is awesome', 'he is 2 old']
+```
+
+
+### Q. String capitalize, upper & lower methods 
+```py 
+  greet = "hello world!"
+  print('Capitalize: ', greet.capitalize())
+  print('Upper:', greet.upper())
+  print('Lower', greet.lower())
+```
+Output:
+```
+  Capitalize:  Hello world!
+  Upper: HELLO WORLD!
+  Lower hello world!
 ```
 
 ## Integer
