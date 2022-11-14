@@ -35,6 +35,20 @@ Output:
   Hello John
 ```
 
+### Q. String split methods 
+```py 
+  name = "riyan"
+  age = 2
+  name = f"{ name } is awesome, he is { age } old"
+  print(name.split())
+  print(name.split(', '))
+```
+Output:
+```
+  ['riyan', 'is', 'awesome,', 'he', 'is', '2', 'old']
+  ['riyan is awesome', 'he is 2 old']
+```
+
 ## Integer
 ### Q. Print length of a Number
 ```py
