@@ -5,9 +5,12 @@
 
 ### Q. Print length of a String
 ```py
-  print(len("riyan"))
-  print("riyan"[0])
-  print("riyan"[len("riyan") - 1])
+  name = "riyan"
+  print(len(name))
+```
+Output:
+```
+  5
 ```
 
 ### Q. String Interpolation
@@ -35,6 +38,14 @@ Output:
 ## Integer
 ### Q. Print length of a Number
 ```py
-print(1234 + 56789)
-print(len(str(123456)))
+  num = 123456
+  print(len(str(123456)))
 ```
+Output:
+```
+  6
+```
+
+
+
+
