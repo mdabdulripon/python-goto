@@ -36,7 +36,7 @@ Output:
 ```
 
 
-### Q. String split methods 
+### Q. String split method 
 ```py 
   name = "riyan"
   age = 2
@@ -64,6 +64,17 @@ Output:
   Upper: HELLO WORLD!
   Lower hello world!
 ```
+
+### Q. String center method 
+```py 
+  greet = "hello world!"
+  print(greet.center(len(greet) + 4, '*'))
+```
+Output:
+```
+  **hello world!**
+```
+
 
 ## Integer
 ### Q. Print length of a Number
